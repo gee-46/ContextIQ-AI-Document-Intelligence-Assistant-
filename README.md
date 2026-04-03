@@ -9,7 +9,7 @@
 ![FAISS](https://img.shields.io/badge/FAISS-Vector%20Search-orange?style=for-the-badge)
 ![Gradio](https://img.shields.io/badge/Gradio-UI-red?style=for-the-badge)
 ![RAG](https://img.shields.io/badge/RAG-Architecture-purple?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Apache%202.0-green?style=for-the-badge)
 
 </p>
 
@@ -17,29 +17,29 @@
 
 ## 🌟 Overview
 
-**ContextIQ** is an AI-powered document assistant that allows users to **chat with PDFs intelligently** using natural language.
+**ContextIQ** is an AI-powered document assistant that enables users to **interact with PDFs using natural language**.
 
-Built using **Retrieval-Augmented Generation (RAG)**, it retrieves relevant context from documents and generates accurate responses using LLMs.
+Built using **Retrieval-Augmented Generation (RAG)**, it retrieves relevant context from documents and generates accurate, intelligent responses using LLMs.
 
 ---
 
 ## ✨ Key Features
 
 * 📄 Upload and process PDF documents
-* 💬 Chat with your document (context-aware answers)
+* 💬 Chat with your document (context-aware responses)
 * 🧠 **Adaptive Response Modes**:
 
   * 🟢 **Beginner Mode** → Simple explanations
-  * 🟡 **Exam Mode** → Structured answers
-  * 🔴 **Strict Mode** → No hallucination (only from document)
+  * 🟡 **Exam Mode** → Structured, exam-ready answers
+  * 🔴 **Strict Mode** → Answers strictly from document (no hallucination)
 * 📝 Generate exam-style questions
 * 📌 Smart summarization
 * ⚡ Fast semantic search using FAISS
-* 🎯 Clean and interactive UI with Gradio
+* 🎯 Clean and interactive UI using Gradio
 
 ---
 
-## 🧠 RAG Architecture (How it Works)
+## 🧠 RAG Architecture
 
 ```mermaid
 graph TD
@@ -47,7 +47,7 @@ A[PDF Upload] --> B[Text Extraction]
 B --> C[Chunking]
 C --> D[Embeddings]
 D --> E[FAISS Vector Store]
-E --> F[Query Input]
+E --> F[User Query]
 F --> G[Relevant Context Retrieval]
 G --> H[OpenAI LLM]
 H --> I[Final Answer]
@@ -71,7 +71,7 @@ H --> I[Final Answer]
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/contextiq.git
+git clone https://github.com/gee-46/contextiq.git
 cd contextiq
 pip install -r requirements.txt
 ```
@@ -97,7 +97,6 @@ python app.py
 ## 🎥 Demo
 
 
-
 ```md
 ![Demo](demo.gif)
 ```
@@ -108,54 +107,54 @@ python app.py
 
 While building **ContextIQ**, I gained hands-on experience in:
 
-* Designing scalable **Python functions for AI pipelines**
-* Implementing **Retrieval-Augmented Generation (RAG)**
+* Designing scalable **Python functions for AI systems**
+* Understanding and implementing **Retrieval-Augmented Generation (RAG)**
 * Working with **vector embeddings and FAISS search**
 * Integrating **LLMs into real-world applications**
-* Building interactive AI apps using **Gradio**
+* Building interactive AI interfaces using **Gradio**
 
 ---
 
 ## 🚀 Future Improvements
 
 * 💬 Chat memory (conversation context)
-* 🌐 Deploy as web application
+* 🌐 Deployment as a web application
 * 📂 Multi-document support
-* 🎨 Advanced UI/UX
+* 🎨 Enhanced UI/UX
 
 ---
 
 ## 📌 Notes
 
-* Requires valid OpenAI API key with billing enabled
+* Requires a valid OpenAI API key with billing enabled
 * Avoid exposing API keys publicly
 * Works best with text-based PDFs
 
 ---
 
-## 📊 Project Highlights
-
-* 🔥 Built in a short development cycle (rapid prototyping)
-* 🧠 Implements real-world AI architecture (RAG)
-* 🎯 Focus on usability + accuracy
-
----
-
 ## 📄 License
 
-MIT License
+This project is licensed under the **Apache License 2.0**.
 
 ---
 
-## 🙌 Acknowledgements
+## 🔗 Connect With Me
 
-* OpenAI
-* Hugging Face
-* FAISS
-* Gradio
+* 💻 GitHub: https://github.com/gee-46
+* 🔗 LinkedIn: https://www.linkedin.com/in/gautam-n-chipkar/
+
+---
+
+## ⭐ Support
+
+If you found this project interesting:
+
+* ⭐ Star the repository
+* 🍴 Fork it
+* 💡 Use it as inspiration for your own projects
 
 ---
 
 <p align="center">
-⭐ If you like this project, consider giving it a star!
+Built and maintained by <b>gee-46</b>
 </p>
